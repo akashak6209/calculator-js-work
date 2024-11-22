@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #getd{
+
+        width: 300px;
+        height: 200px;
+        background-color: yellow;
+        
+      }
+    </style>
+</head>
+<body>
+  <h1  ><U>CALCULATOR:-</U>
+    <span id="getd">
+
+    </span>
+  </h1>
+</body>
+
+    <script>
+  //  switch(Operation){
+  //    case'+':
+  //    console.log(`${Number(num)} + ${Number(nums2)} = ${Number(num+nums2)}`)
+  //    break;
+  //    case '-':
+  //    console.log(`${Number(num)} - ${Number(nums2)} = ${Number(num-nums2)}`)
+  //    break;
+  //    case '*':
+  //    console.log(`${Number(num)} * ${Number(nums2)} = ${Number(num*nums2)}`)
+  //    break; 
+  //    case '/':
+  //    console.log(`${Number(num)} / ${Number(nums2)} = ${Number(num/nums2)}`)
+  //    break;
+  //    default:
+  //    console.log(`else`)
+  //    break;
+  //    }
+let arra = ['masnhu fefewrf','veer dfeqr3er',dq]
+  
+  let get = document.getElementById('getd')
+  const num=parseInt(prompt('enter a number'))
+  const Operation=prompt('enter a operator');
+  const num2=parseInt(prompt('enter a number'))
+
+  // console.log(typeof(num))
+  if(Operation=='+'){
+   result = (num+num2)
+   
+   get.innerText = `${num} + ${num2} = ${num+num2}`
+
+   get.style.color = 'red'
+
+   
+
+
+  }else
+  if(Operation=='-'){
+   result = (num-num2)
+   get.innerText = num-num2
+  }else
+  if(Operation=='*'){
+   result = (num*num2)
+  }else
+  if(Operation=='/'){
+   result = (num/num2)
+  }else
+  if(Operation=='%'){
+   result = (num%num2)
+  }
+
+  console.log(result)
+ 
+    </script>
+</body>
+
+</html> 
+
